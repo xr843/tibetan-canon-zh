@@ -8,7 +8,7 @@
 
 <!-- 快速阅读:开始（由 _本地数据/_工具/reading_links.py 自动生成，请勿手改） -->
 
-## 快速阅读：本项目已完成的汉译稿（21 部）
+## 快速阅读：本项目已完成的汉译稿（22 部）
 
 点“在线阅读”直接在 GitHub 网页上看（右侧有章节目录）；点 PDF 或 Word 直接下载。PDF 内嵌藏文字体，手机、电脑都能正常显示。
 
@@ -17,6 +17,7 @@
 | T-2821 | 菩提心观释 | 莲花戒 | 丹珠尔·中观部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2821_%E8%8F%A9%E6%8F%90%E5%BF%83%E8%A7%82%E9%87%8A.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2821.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2821.docx) |
 | T-2939 | 庄严经论初二颂释 | 利他贤 | 丹珠尔·唯识部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2939_%E5%BA%84%E4%B8%A5%E7%BB%8F%E8%AE%BA%E5%88%9D%E4%BA%8C%E9%A2%82%E9%87%8A.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2939.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2939.docx) |
 | T-2940 | 庄严经论摄义 | 智吉祥 | 丹珠尔·唯识部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2940_%E5%BA%84%E4%B8%A5%E7%BB%8F%E8%AE%BA%E6%91%84%E4%B9%89.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2940.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2940.docx) |
+| T-2955 | 菩萨戒品广释 | 胜子 | 丹珠尔·唯识部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2955_%E8%8F%A9%E8%90%A8%E6%88%92%E5%93%81%E5%B9%BF%E9%87%8A.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2955.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2955.docx) |
 | T-2969 | 释轨经百段 | 世亲 | 丹珠尔·唯识部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2969_%E9%87%8A%E8%BD%A8%E7%BB%8F%E7%99%BE%E6%AE%B5.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2969.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2969.docx) |
 | T-2970 | 释轨论 | 世亲 | 丹珠尔·唯识部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2970_%E9%87%8A%E8%BD%A8%E8%AE%BA.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2970.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2970.docx) |
 | T-2978 | 释轨论疏 | 德慧 | 丹珠尔·唯识部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2978_%E9%87%8A%E8%BD%A8%E8%AE%BA%E7%96%8F.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2978.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2978.docx) |
