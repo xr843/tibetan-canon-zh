@@ -8,7 +8,7 @@
 
 <!-- 快速阅读:开始（由 _本地数据/_工具/reading_links.py 自动生成，请勿手改） -->
 
-## 快速阅读：本项目已完成的汉译稿（18 部）
+## 快速阅读：本项目已完成的汉译稿（19 部）
 
 点“在线阅读”直接在 GitHub 网页上看（右侧有章节目录）；点 PDF 或 Word 直接下载。PDF 内嵌藏文字体，手机、电脑都能正常显示。
 
@@ -22,6 +22,7 @@
 | T-2978 | 释轨论疏 | 德慧 | 丹珠尔·唯识部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2978_%E9%87%8A%E8%BD%A8%E8%AE%BA%E7%96%8F.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2978.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2978.docx) |
 | T-2989 | 善树论 | 宝称 | 丹珠尔·唯识部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2989_%E5%96%84%E6%A0%91%E8%AE%BA.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2989.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2989.docx) |
 | T-2991 | 律仪二十颂释 | 寂护 | 丹珠尔·唯识部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2991_%E5%BE%8B%E4%BB%AA%E4%BA%8C%E5%8D%81%E9%A2%82%E9%87%8A.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2991.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2991.docx) |
+| T-2992 | 律仪二十颂难语释 | 菩提贤 | 丹珠尔·唯识部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2992_%E5%BE%8B%E4%BB%AA%E4%BA%8C%E5%8D%81%E9%A2%82%E9%9A%BE%E8%AF%AD%E9%87%8A.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2992.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2992.docx) |
 | T-2716 | 般若圆集要义论 | 陈那 | 丹珠尔·般若部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2716_%E8%88%AC%E8%8B%A5%E5%9C%86%E9%9B%86%E8%A6%81%E4%B9%89%E8%AE%BA.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2716.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2716.docx) |
 | S-0347 | 中论八大难处释 | 贾曹杰·达玛仁钦 | 松绷·中观 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/batch2/S-0347_%E4%B8%AD%E8%AE%BA%E5%85%AB%E5%A4%A7%E9%9A%BE%E5%A4%84%E9%87%8A.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0347.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0347.docx) |
 | S-0350 | 二谛建立 | 贾曹杰·达玛仁钦 | 松绷·中观 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/batch2/S-0350_%E4%BA%8C%E8%B0%9B%E5%BB%BA%E7%AB%8B.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0350.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0350.docx) |
