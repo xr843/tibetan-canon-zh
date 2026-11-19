@@ -6,6 +6,37 @@
 
 > ⚠️ **AI 生成，未经人工审定。** 汉文拟译书名、注释关系和全部译稿，都由 AI（Anthropic Claude）在脚本和规则的辅助下生成，目前还没有经过懂藏文的专家审定。请只作研究线索使用，引用前请核对原文。发现错误欢迎提 [issue](../../issues) 或 PR，人工审校正是本项目最需要的帮助。
 
+<!-- 快速阅读:开始（由 _本地数据/_工具/reading_links.py 自动生成，请勿手改） -->
+
+## 快速阅读：本项目已完成的汉译稿（18 部）
+
+点“在线阅读”直接在 GitHub 网页上看（右侧有章节目录）；点 PDF 或 Word 直接下载。PDF 内嵌藏文字体，手机、电脑都能正常显示。
+
+| 编号 | 书名 | 作者 | 部类 | 阅读 / 下载 |
+|---|---|---|---|---|
+| T-2821 | 菩提心观释 | 莲花戒 | 丹珠尔·中观部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2821_%E8%8F%A9%E6%8F%90%E5%BF%83%E8%A7%82%E9%87%8A.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2821.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2821.docx) |
+| T-2939 | 庄严经论初二颂释 | 利他贤 | 丹珠尔·唯识部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2939_%E5%BA%84%E4%B8%A5%E7%BB%8F%E8%AE%BA%E5%88%9D%E4%BA%8C%E9%A2%82%E9%87%8A.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2939.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2939.docx) |
+| T-2940 | 庄严经论摄义 | 智吉祥 | 丹珠尔·唯识部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2940_%E5%BA%84%E4%B8%A5%E7%BB%8F%E8%AE%BA%E6%91%84%E4%B9%89.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2940.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2940.docx) |
+| T-2969 | 释轨经百段 | 世亲 | 丹珠尔·唯识部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2969_%E9%87%8A%E8%BD%A8%E7%BB%8F%E7%99%BE%E6%AE%B5.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2969.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2969.docx) |
+| T-2970 | 释轨论 | 世亲 | 丹珠尔·唯识部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2970_%E9%87%8A%E8%BD%A8%E8%AE%BA.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2970.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2970.docx) |
+| T-2978 | 释轨论疏 | 德慧 | 丹珠尔·唯识部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2978_%E9%87%8A%E8%BD%A8%E8%AE%BA%E7%96%8F.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2978.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2978.docx) |
+| T-2989 | 善树论 | 宝称 | 丹珠尔·唯识部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2989_%E5%96%84%E6%A0%91%E8%AE%BA.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2989.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2989.docx) |
+| T-2991 | 律仪二十颂释 | 寂护 | 丹珠尔·唯识部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2991_%E5%BE%8B%E4%BB%AA%E4%BA%8C%E5%8D%81%E9%A2%82%E9%87%8A.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2991.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2991.docx) |
+| T-2716 | 般若圆集要义论 | 陈那 | 丹珠尔·般若部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2716_%E8%88%AC%E8%8B%A5%E5%9C%86%E9%9B%86%E8%A6%81%E4%B9%89%E8%AE%BA.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2716.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2716.docx) |
+| S-0347 | 中论八大难处释 | 贾曹杰·达玛仁钦 | 松绷·中观 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/batch2/S-0347_%E4%B8%AD%E8%AE%BA%E5%85%AB%E5%A4%A7%E9%9A%BE%E5%A4%84%E9%87%8A.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0347.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0347.docx) |
+| S-0350 | 二谛建立 | 贾曹杰·达玛仁钦 | 松绷·中观 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/batch2/S-0350_%E4%BA%8C%E8%B0%9B%E5%BB%BA%E7%AB%8B.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0350.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0350.docx) |
+| S-0109 | 修心八颂导引文 | 二世章嘉·阿旺洛桑却丹 | 松绷·修心 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/pilot/S-0109_%E4%BF%AE%E5%BF%83%E5%85%AB%E9%A2%82%E5%AF%BC%E5%BC%95%E6%96%87.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0109.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0109.docx) |
+| S-0412 | 末那与阿赖耶难处 | 宗喀巴·洛桑扎巴 | 松绷·唯识 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/batch2/S-0412_%E6%9C%AB%E9%82%A3%E4%B8%8E%E9%98%BF%E8%B5%96%E8%80%B6%E9%9A%BE%E5%A4%84.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0412.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0412.docx) |
+| S-0566 | 心与心所辨识摄略 | 俄曲·达玛巴扎 | 松绷·对法（俱舍） | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/pilot/S-0566_%E5%BF%83%E4%B8%8E%E5%BF%83%E6%89%80%E8%BE%A8%E8%AF%86%E6%91%84%E7%95%A5.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0566.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0566.docx) |
+| S-0571 | 俱舍论摄义 | 贡塘·贡却丹贝仲美 | 松绷·对法（俱舍） | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/batch2/S-0571_%E4%BF%B1%E8%88%8D%E8%AE%BA%E6%91%84%E4%B9%89.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0571.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0571.docx) |
+| S-0430 | 四谛建立 | 贡塘·贡却丹贝仲美 | 松绷·般若 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/batch2/S-0430_%E5%9B%9B%E8%B0%9B%E5%BB%BA%E7%AB%8B.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0430.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0430.docx) |
+| S-0009 | 三主要道修持法 | 贡塘·贡却丹贝仲美 | 松绷·道次第 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/pilot/S-0009_%E4%B8%89%E4%B8%BB%E8%A6%81%E9%81%93%E4%BF%AE%E6%8C%81%E6%B3%95.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0009.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0009.docx) |
+| S-0515 | 理路幻钥 | 贡塘·贡却丹贝仲美 | 松绷·量论 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/batch2/S-0515_%E7%90%86%E8%B7%AF%E5%B9%BB%E9%92%A5.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0515.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/S-0515.docx) |
+
+也可以在[在线目录](https://xr843.github.io/tibetan-canon-zh/site/)中检索：有本项目译稿的条目，详情页里会给出同样的链接。
+
+<!-- 快速阅读:结束 -->
+
 ## 有什么
 
 | 目录 | 内容 |

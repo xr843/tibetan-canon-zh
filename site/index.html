@@ -52,7 +52,7 @@ pre.text{white-space:pre-wrap;word-break:break-word;background:var(--panel);bord
     <input id="q" type="search" placeholder="书名（汉 / 藏 / 威利 / 梵）、作者、编号（如 D4090、T1558、K-0001）" autocomplete="off">
     <select id="fb"><option value="">全部三部</option><option>甘珠尔</option><option>丹珠尔</option><option>松绷</option></select>
     <select id="fc"><option value="">全部部类</option></select>
-    <select id="ft"><option value="">汉译情况：全部</option><option value="ancient">有古代汉译</option><option value="modern">有近现代汉译</option><option value="none">未见汉译</option></select>
+    <select id="ft"><option value="">汉译情况：全部</option><option value="ancient">有古代汉译</option><option value="modern">有近现代汉译</option><option value="none">未见汉译</option><option value="ours">本项目已译</option></select>
     <select id="fr"><option value="">注释关系：全部</option><option value="hasc">有注疏的根本典</option><option value="isc">注疏类（已找到所释）</option></select>
     <button id="theme" title="切换深浅色">◐</button>
   </div>
@@ -63,12 +63,13 @@ pre.text{white-space:pre-wrap;word-break:break-word;background:var(--panel);bord
 </main>
 <script>
 const $=s=>document.querySelector(s);
-let DATA=[],BYID={},view=[],shown=0;const PAGE=200;
+let DATA=[],BYID={},TRN={},view=[],shown=0;const PAGE=200;
 const norm=s=>(s||'').toLowerCase();
 function trKind(r){const t=r.tr||'';return t.includes('近现代')&&!t.includes('仅据书名')?'modern':(t.startsWith('有古代')?'ancient':(t==='未见汉译'?'none':'other'))}
 function esc(s){return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
 async function load(){
   try{const r=await fetch('data/catalog.json');DATA=await r.json();}catch(e){$('#sub').textContent='数据加载失败：请用本地服务器打开（见 README）';return}
+  try{TRN=await (await fetch('data/translations.json')).json()}catch(e){TRN={}}
   DATA.forEach(r=>{BYID[r.id]=r;r._s=norm([r.id,r.zh,r.bo,r.wy,r.sa,r.en,r.au,r.ao,r.d,r.h,r.a,r.rk,r.ts,r.mo,r.dr].join(' '))});
   const n={甘珠尔:0,丹珠尔:0,松绷:0};DATA.forEach(r=>n[r.b]++);
   $('#sub').textContent=`共 ${DATA.length.toLocaleString()} 条 · 甘珠尔 ${n.甘珠尔} · 丹珠尔 ${n.丹珠尔} · 松绷 ${n.松绷}`;
@@ -79,7 +80,7 @@ function fillCats(){const b=$('#fb').value,s=new Map();DATA.forEach(r=>{if(!b||r
 function apply(){
   const q=norm($('#q').value.trim()),b=$('#fb').value,c=$('#fc').value,t=$('#ft').value,f=$('#fr').value;
   const terms=q.split(/\s+/).filter(Boolean);
-  view=DATA.filter(r=>(!b||r.b===b)&&(!c||r.c===c)&&(!t||trKind(r)===t)&&(!f||(f==='hasc'?r.cb:r.cm))&&terms.every(x=>r._s.includes(x)));
+  view=DATA.filter(r=>(!b||r.b===b)&&(!c||r.c===c)&&(!t||(t==='ours'?!!TRN[r.id]:trKind(r)===t))&&(!f||(f==='hasc'?r.cb:r.cm))&&terms.every(x=>r._s.includes(x)));
   shown=0;$('#list').innerHTML=`<div class="stat">找到 ${view.length.toLocaleString()} 条</div>`;more();
 }
 function more(){const L=$('#list');L.querySelector('.more')?.remove();
@@ -110,6 +111,7 @@ function show(id){const r=BYID[id];if(!r)return;location.hash=encodeURIComponent
   ${row('译者',esc(r.tl))}${row('德格编号',esc(r.d))}${row('拉萨版编号',esc(r.h))}${row('ACIP编号',esc(r.a))}${row('rKTs编号',esc(r.rk))}
   ${row('德格函·叶码',esc(r.dv))}${row('音节数',r.n?Number(r.n).toLocaleString():'')}${row('版权提示',esc(r.cp))}${row('备注',esc(r.nt))}
   </table>
+  ${TRN[r.id]?`<div class="sec"><h3>本项目汉译稿</h3><p><a href="${TRN[r.id].md}" target="_blank">在线阅读</a>　·　<a href="${TRN[r.id].pdf}">下载 PDF</a>　·　<a href="${TRN[r.id].docx}">下载 Word</a></p><div class="note">AI 翻译，${r.id.startsWith('T-')?'经 Codex 交叉审核':'尚未经过交叉审核'}，未经人工审定。</div></div>`:''}
   ${cm?`<div class="sec"><h3>所释典籍</h3><ul>${cm}</ul></div>`:''}
   ${cb?`<div class="sec"><h3>注疏（${r.cb.length}）</h3><ul>${cb}</ul></div>`:''}
   <div class="sec"><h3>藏文原文</h3>
