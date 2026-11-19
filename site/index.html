@@ -63,7 +63,7 @@ pre.text{white-space:pre-wrap;word-break:break-word;background:var(--panel);bord
 </main>
 <script>
 const $=s=>document.querySelector(s);
-let DATA=[],BYID={},TRN={},view=[],shown=0;const PAGE=200;
+let DATA=[],BYID={},TRN={},view=[],shown=0;const ONLINE=!/^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);const PAGE=200;
 const norm=s=>(s||'').toLowerCase();
 function trKind(r){const t=r.tr||'';return t.includes('近现代')&&!t.includes('仅据书名')?'modern':(t.startsWith('有古代')?'ancient':(t==='未见汉译'?'none':'other'))}
 function esc(s){return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
@@ -89,7 +89,7 @@ function more(){const L=$('#list');L.querySelector('.more')?.remove();
     const k=trKind(r);
     d.innerHTML=`<div class="t"><span class="id">${r.id}</span>${esc(r.zh||'（未译）')}</div>
       <div class="s bo">${esc((r.bo||'').slice(0,80))}</div>
-      <div class="s">${r.au?esc(r.au)+' · ':''}${esc(r.c)}${r.d?' · '+r.d:''} ${k==='ancient'?'<span class="chip g">古译</span>':''}${k==='modern'?'<span class="chip g">近现代汉译</span>':''}${r.cb?`<span class="chip w">注疏 ${r.cb.length}</span>`:''}${r.cp?'<span class="chip">版权</span>':''}</div>`;
+      <div class="s">${r.au?esc(r.au)+' · ':''}${esc(r.c)}${r.d?' · '+r.d:''} ${k==='ancient'?'<span class="chip g">古译</span>':''}${k==='modern'?'<span class="chip g">近现代汉译</span>':''}${r.cb?`<span class="chip w">注疏 ${r.cb.length}</span>`:''}${r.cp?'<span class="chip">版权</span>':''}${TRN[r.id]?'<span class="chip w">本项目已译</span>':''}</div>`;
     d.onclick=()=>show(r.id);frag.appendChild(d)});
   L.appendChild(frag);shown+=PAGE;
   if(shown<view.length){const m=document.createElement('button');m.className='more';m.textContent=`显示更多（还有 ${view.length-shown} 条）`;m.onclick=more;L.appendChild(m)}
@@ -105,7 +105,7 @@ function show(id){const r=BYID[id];if(!r)return;location.hash=encodeURIComponent
   <h2>${esc(r.zh||'（未译）')}</h2><div class="bo">${esc(r.bo||'')}</div>
   <table class="kv">
   ${row('译名来源',esc(r.zt)+(r.dr&&r.dr!==r.zh?`<div class="note">原拟译：${esc(r.dr)}</div>`:''))}
-  ${row('汉译情况',esc(r.tr))}${row('大正藏对应',r.ts?taishoLinks(r.ts):'')}${row('近现代汉译',esc(r.mo))}
+  ${row('汉译情况',esc(r.tr)+(TRN[r.id]?'；<b>本项目已译（AI 初稿，见下）</b>':''))}${row('大正藏对应',r.ts?taishoLinks(r.ts):'')}${row('近现代汉译',esc(r.mo))}
   ${row('威利转写',esc(r.wy))}${row('梵文书名',esc(r.sa))}${row('英文书名',esc(r.en))}
   ${row('作者',esc(r.au)+(r.ao&&r.ao!==r.au?`<span class="note">（${esc(r.ao)}）</span>`:'')+(r.ad?`<span class="note"> ${esc(r.ad)}</span>`:''))}
   ${row('译者',esc(r.tl))}${row('德格编号',esc(r.d))}${row('拉萨版编号',esc(r.h))}${row('ACIP编号',esc(r.a))}${row('rKTs编号',esc(r.rk))}
@@ -115,8 +115,9 @@ function show(id){const r=BYID[id];if(!r)return;location.hash=encodeURIComponent
   ${cm?`<div class="sec"><h3>所释典籍</h3><ul>${cm}</ul></div>`:''}
   ${cb?`<div class="sec"><h3>注疏（${r.cb.length}）</h3><ul>${cb}</ul></div>`:''}
   <div class="sec"><h3>藏文原文</h3>
-   ${r.f1?`<button data-f="${esc(r.f1)}">${r.b==='松绷'?'阅读文本':'阅读 ACIP 版'}</button> `:''}${r.f2?`<button data-f="${esc(r.f2)}">阅读德格版（Esukhia）</button>`:''}
-   ${!r.f1&&!r.f2?'<span class="note">无文本文件</span>':''}
+   ${ONLINE?(TRN[r.id]?'<span class="note">藏文原文已逐段收在上面的“本项目汉译稿”中（藏汉对照）。</span>':'<span class="note">在线目录版不含藏文原文。原文可按仓库 README 的说明下载数据后在本地查看。</span>'):''}
+   ${ONLINE?'':r.f1?`<button data-f="${esc(r.f1)}">${r.b==='松绷'?'阅读文本':'阅读 ACIP 版'}</button> `:''}${!ONLINE&&r.f2?`<button data-f="${esc(r.f2)}">阅读德格版（Esukhia）</button>`:''}
+   ${!ONLINE&&!r.f1&&!r.f2?'<span class="note">无文本文件</span>':''}
    <div id="txt"></div></div>`;
   $('#detail').scrollTop=0;
   $('#detail').querySelectorAll('[data-go]').forEach(a=>a.onclick=()=>show(a.dataset.go));
