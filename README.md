@@ -26,6 +26,9 @@
 
 ### 译稿
 
+**下载 Word / PDF 版**：[Release · 译稿下载](https://github.com/xr843/tibetan-canon-zh/releases/tag/translations)（由 Markdown 原稿自动生成；PDF 内嵌藏文字体，任何设备都能正常显示）。
+
+
 只翻译同时满足以下三个条件的作品：
 1. 没有现成汉译；
 2. 作者在 1955 年以前去世，没有著作权问题；
