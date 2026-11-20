@@ -52,7 +52,7 @@
 | [`catalog/relations/`](catalog/relations/) | **经—论—注疏关系表**，共 1,044 条，并据此生成注疏谱系，例如《现观庄严论》有 56 部注疏 |
 | [`catalog/translations-status/`](catalog/translations-status/) | 近现代汉译核对报告：哪些藏文典籍已有汉译 |
 | [`site/`](site/) | 检索网页：可按书名、作者、编号检索，查看版本、汉译情况和注释关系 |
-| [`translations/`](translations/) | 汉译稿 18 部，藏汉逐段对照，附校注；另有 [Word / PDF 下载](https://github.com/xr843/tibetan-canon-zh/releases/tag/translations) |
+| [`translations/`](translations/) | 汉译稿 23 部，藏汉逐段对照，附校注；另有 [Word / PDF 下载](https://github.com/xr843/tibetan-canon-zh/releases/tag/translations) |
 | [`scripts/`](scripts/) | 合并、编目、生成网页用的全部脚本 |
 | [`docs/`](docs/) | [实施流程](docs/实施流程.md)、[翻译规范](docs/翻译规范.md)、译名规范、[汉译核查总表](docs/汉译核查总表_唯识部.md) |
 
