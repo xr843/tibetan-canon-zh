@@ -8,7 +8,7 @@
 
 <!-- 快速阅读:开始（由 _本地数据/_工具/reading_links.py 自动生成，请勿手改） -->
 
-## 快速阅读：本项目已完成的汉译稿（27 部）
+## 快速阅读：本项目已完成的汉译稿（28 部）
 
 点“在线阅读”直接在 GitHub 网页上看（右侧有章节目录）；点 PDF 或 Word 直接下载。PDF 内嵌藏文字体，手机、电脑都能正常显示。
 
@@ -17,6 +17,7 @@
 | T-2789 | 二谛分别论颂 | 智藏 | 丹珠尔·中观部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2789_%E4%BA%8C%E8%B0%9B%E5%88%86%E5%88%AB%E8%AE%BA%E9%A2%82.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2789.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2789.docx) |
 | T-2790 | 二谛分别论释 | 智藏 | 丹珠尔·中观部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2790_%E4%BA%8C%E8%B0%9B%E5%88%86%E5%88%AB%E8%AE%BA%E9%87%8A.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2790.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2790.docx) |
 | T-2791 | 二谛分别论难语释 | 寂护 | 丹珠尔·中观部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2791_%E4%BA%8C%E8%B0%9B%E5%88%86%E5%88%AB%E8%AE%BA%E9%9A%BE%E8%AF%AD%E9%87%8A.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2791.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2791.docx) |
+| T-2796 | 真实光明论 | 莲花戒 | 丹珠尔·中观部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2796_%E7%9C%9F%E5%AE%9E%E5%85%89%E6%98%8E%E8%AE%BA.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2796.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2796.docx) |
 | T-2797 | 一切法无自性成就论 | 莲花戒 | 丹珠尔·中观部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2797_%E4%B8%80%E5%88%87%E6%B3%95%E6%97%A0%E8%87%AA%E6%80%A7%E6%88%90%E5%B0%B1%E8%AE%BA.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2797.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2797.docx) |
 | T-2821 | 菩提心观释 | 莲花戒 | 丹珠尔·中观部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2821_%E8%8F%A9%E6%8F%90%E5%BF%83%E8%A7%82%E9%87%8A.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2821.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2821.docx) |
 | T-2939 | 庄严经论初二颂释 | 利他贤 | 丹珠尔·唯识部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2939_%E5%BA%84%E4%B8%A5%E7%BB%8F%E8%AE%BA%E5%88%9D%E4%BA%8C%E9%A2%82%E9%87%8A.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2939.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2939.docx) |
@@ -56,7 +57,7 @@
 | [`catalog/relations/`](catalog/relations/) | **经—论—注疏关系表**，共 1,044 条，并据此生成注疏谱系，例如《现观庄严论》有 56 部注疏 |
 | [`catalog/translations-status/`](catalog/translations-status/) | 近现代汉译核对报告：哪些藏文典籍已有汉译 |
 | [`site/`](site/) | 检索网页：可按书名、作者、编号检索，查看版本、汉译情况和注释关系 |
-| [`translations/`](translations/) | 汉译稿 27 部，藏汉逐段对照，附校注；另有 [Word / PDF 下载](https://github.com/xr843/tibetan-canon-zh/releases/tag/translations) |
+| [`translations/`](translations/) | 汉译稿 28 部，藏汉逐段对照，附校注；另有 [Word / PDF 下载](https://github.com/xr843/tibetan-canon-zh/releases/tag/translations) |
 | [`scripts/`](scripts/) | 合并、编目、生成网页用的全部脚本 |
 | [`docs/`](docs/) | [翻译路线图](docs/翻译路线图.md)、[实施流程](docs/实施流程.md)、[翻译规范](docs/翻译规范.md)、译名规范、[汉译核查总表](docs/汉译核查总表_唯识部.md) |
 
@@ -91,7 +92,7 @@
 - **校注与异文表**：用 dhammareader 校正本和德格本逐音节对校；底本有讹误的出校注，不悄悄改；专有名词的比定只写在校注里；
 - **引文核对表**：古代汉译（玄奘等）据 CBETA 采用并标页栏行；现代译者的译文一律不采用，改为依藏文自译；
 - **自查**：译者最没把握的 10 处；
-- **审核记录**：丹珠尔的 18 部都经过交叉审核：其中 9 部由 Codex（另一家的模型）整部审核；之后的 9 部由没有参与翻译的 Claude 审核员整部审核，再由 Codex 重点复核。审核意见由译者逐条处理，处理结果附在文末。松绷的 9 部是在交叉审核流程建立之前译的，2026-11-21 起按同样的流程补做审核：已完成《二谛建立》《中论八大难处释》《四谛建立》《心与心所辨识摄略》《三主要道修持法》《末那与阿赖耶难处》《理路幻钥》《俱舍论摄义》8 部（《修心八颂导引文》已按审核意见修订，新版暂未发布，见上）。
+- **审核记录**：丹珠尔的 19 部都经过交叉审核：其中 9 部由 Codex（另一家的模型）整部审核；之后的 10 部由没有参与翻译的 Claude 审核员整部审核，再由 Codex 重点复核。审核意见由译者逐条处理，处理结果附在文末。松绷的 9 部是在交叉审核流程建立之前译的，2026-11-21 起按同样的流程补做审核：已完成《二谛建立》《中论八大难处释》《四谛建立》《心与心所辨识摄略》《三主要道修持法》《末那与阿赖耶难处》《理路幻钥》《俱舍论摄义》8 部（《修心八颂导引文》已按审核意见修订，新版暂未发布，见上）。
 
 [`translations/pilot/试点报告.md`](translations/pilot/试点报告.md) 说明了最初的质量检验方法和结果。完整的工作流程见 [实施流程](docs/实施流程.md)。
 
