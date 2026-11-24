@@ -111,7 +111,7 @@ function show(id){const r=BYID[id];if(!r)return;location.hash=encodeURIComponent
   ${row('译者',esc(r.tl))}${row('德格编号',esc(r.d))}${row('拉萨版编号',esc(r.h))}${row('ACIP编号',esc(r.a))}${row('rKTs编号',esc(r.rk))}
   ${row('德格函·叶码',esc(r.dv))}${row('音节数',r.n?Number(r.n).toLocaleString():'')}${row('版权提示',esc(r.cp))}${row('备注',esc(r.nt))}
   </table>
-  ${TRN[r.id]?`<div class="sec"><h3>本项目汉译稿</h3><p><a href="${TRN[r.id].md}" target="_blank">在线阅读</a>　·　<a href="${TRN[r.id].pdf}">下载 PDF</a>　·　<a href="${TRN[r.id].docx}">下载 Word</a></p><div class="note">AI 翻译；${esc(TRN[r.id].rv||'审核情况见译稿文件头')}；未经懂藏文的专家审定，仅供研究参考。</div></div>`:''}
+  ${TRN[r.id]?`<div class="sec"><h3>本项目汉译稿</h3><p><a href="${TRN[r.id].web||TRN[r.id].md}" target="_blank">在线阅读（佛津）</a>　·　<a href="${TRN[r.id].md}" target="_blank">GitHub 源文件</a>　·　<a href="${TRN[r.id].pdf}">下载 PDF</a>　·　<a href="${TRN[r.id].docx}">下载 Word</a></p><div class="note">AI 翻译；${esc(TRN[r.id].rv||'审核情况见译稿文件头')}；未经懂藏文的专家审定，仅供研究参考。</div></div>`:''}
   ${cm?`<div class="sec"><h3>所释典籍</h3><ul>${cm}</ul></div>`:''}
   ${cb?`<div class="sec"><h3>注疏（${r.cb.length}）</h3><ul>${cb}</ul></div>`:''}
   <div class="sec"><h3>藏文原文</h3>
