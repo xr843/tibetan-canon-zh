@@ -8,12 +8,13 @@
 
 <!-- 快速阅读:开始（由 _本地数据/_工具/reading_links.py 自动生成，请勿手改） -->
 
-## 快速阅读：本项目已完成的汉译稿（28 部）
+## 快速阅读：本项目已完成的汉译稿（29 部）
 
 点“在线阅读”直接在 GitHub 网页上看（右侧有章节目录；个别特大的译稿 GitHub 网页显示不了，请下载 PDF）；点 PDF 或 Word 直接下载。PDF 内嵌藏文字体，手机、电脑都能正常显示。
 
 | 编号 | 书名 | 作者 | 部类 | 阅读 / 下载 |
 |---|---|---|---|---|
+| T-2761 | 中观宝灯论 | 清辨 | 丹珠尔·中观部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2761_%E4%B8%AD%E8%A7%82%E5%AE%9D%E7%81%AF%E8%AE%BA.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2761.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2761.docx) |
 | T-2789 | 二谛分别论颂 | 智藏 | 丹珠尔·中观部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2789_%E4%BA%8C%E8%B0%9B%E5%88%86%E5%88%AB%E8%AE%BA%E9%A2%82.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2789.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2789.docx) |
 | T-2790 | 二谛分别论释 | 智藏 | 丹珠尔·中观部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2790_%E4%BA%8C%E8%B0%9B%E5%88%86%E5%88%AB%E8%AE%BA%E9%87%8A.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2790.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2790.docx) |
 | T-2791 | 二谛分别论难语释 | 寂护 | 丹珠尔·中观部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2791_%E4%BA%8C%E8%B0%9B%E5%88%86%E5%88%AB%E8%AE%BA%E9%9A%BE%E8%AF%AD%E9%87%8A.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2791.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2791.docx) |
