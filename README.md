@@ -8,7 +8,7 @@
 
 <!-- 快速阅读:开始（由 _本地数据/_工具/reading_links.py 自动生成，请勿手改） -->
 
-## 快速阅读：本项目已完成的汉译稿（29 部）
+## 快速阅读：本项目已完成的汉译稿（31 部）
 
 点“在线阅读”直接在 GitHub 网页上看（右侧有章节目录；个别特大的译稿 GitHub 网页显示不了，请下载 PDF）；点 PDF 或 Word 直接下载。PDF 内嵌藏文字体，手机、电脑都能正常显示。
 
@@ -20,6 +20,8 @@
 | T-2791 | 二谛分别论难语释 | 寂护 | 丹珠尔·中观部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2791_%E4%BA%8C%E8%B0%9B%E5%88%86%E5%88%AB%E8%AE%BA%E9%9A%BE%E8%AF%AD%E9%87%8A.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2791.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2791.docx) |
 | T-2796 | 真实光明论 | 莲花戒 | 丹珠尔·中观部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2796_%E7%9C%9F%E5%AE%9E%E5%85%89%E6%98%8E%E8%AE%BA.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2796.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2796.docx) |
 | T-2797 | 一切法无自性成就论 | 莲花戒 | 丹珠尔·中观部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2797_%E4%B8%80%E5%88%87%E6%B3%95%E6%97%A0%E8%87%AA%E6%80%A7%E6%88%90%E5%B0%B1%E8%AE%BA.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2797.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2797.docx) |
+| T-2801 | 中观理趣心要略摄论 | 明源光 | 丹珠尔·中观部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2801_%E4%B8%AD%E8%A7%82%E7%90%86%E8%B6%A3%E5%BF%83%E8%A6%81%E7%95%A5%E6%91%84%E8%AE%BA.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2801.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2801.docx) |
+| T-2806 | 诸见差别略说 | 中观狮子 | 丹珠尔·中观部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2806_%E8%AF%B8%E8%A7%81%E5%B7%AE%E5%88%AB%E7%95%A5%E8%AF%B4.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2806.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2806.docx) |
 | T-2821 | 菩提心观释 | 莲花戒 | 丹珠尔·中观部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2821_%E8%8F%A9%E6%8F%90%E5%BF%83%E8%A7%82%E9%87%8A.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2821.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2821.docx) |
 | T-2939 | 庄严经论初二颂释 | 利他贤 | 丹珠尔·唯识部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2939_%E5%BA%84%E4%B8%A5%E7%BB%8F%E8%AE%BA%E5%88%9D%E4%BA%8C%E9%A2%82%E9%87%8A.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2939.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2939.docx) |
 | T-2940 | 庄严经论摄义 | 智吉祥 | 丹珠尔·唯识部 | [在线阅读](https://github.com/xr843/tibetan-canon-zh/blob/main/translations/tengyur/T-2940_%E5%BA%84%E4%B8%A5%E7%BB%8F%E8%AE%BA%E6%91%84%E4%B9%89.md) · [PDF](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2940.pdf) · [Word](https://github.com/xr843/tibetan-canon-zh/releases/download/translations/T-2940.docx) |
@@ -93,7 +95,7 @@
 - **校注与异文表**：用 dhammareader 校正本和德格本逐音节对校；底本有讹误的出校注，不悄悄改；专有名词的比定只写在校注里；
 - **引文核对表**：古代汉译（玄奘等）据 CBETA 采用并标页栏行；现代译者的译文一律不采用，改为依藏文自译；
 - **自查**：译者最没把握的 10 处；
-- **审核记录**：丹珠尔的 20 部都经过交叉审核：其中 9 部由 Codex（另一家的模型）整部审核；之后的 11 部由没有参与翻译的 Claude 审核员整部审核，再由 Codex 重点复核。审核意见由译者逐条处理，处理结果附在文末。松绷的 9 部是在交叉审核流程建立之前译的，2026-11-21 起按同样的流程补做审核：已完成《二谛建立》《中论八大难处释》《四谛建立》《心与心所辨识摄略》《三主要道修持法》《末那与阿赖耶难处》《理路幻钥》《俱舍论摄义》8 部（《修心八颂导引文》已按审核意见修订，新版暂未发布，见上）。
+- **审核记录**：丹珠尔的 22 部都经过交叉审核：其中 9 部由 Codex（另一家的模型）整部审核；之后的 13 部由没有参与翻译的 Claude 审核员整部审核，再由 Codex 重点复核。审核意见由译者逐条处理，处理结果附在文末。松绷的 9 部是在交叉审核流程建立之前译的，2026-11-21 起按同样的流程补做审核：已完成《二谛建立》《中论八大难处释》《四谛建立》《心与心所辨识摄略》《三主要道修持法》《末那与阿赖耶难处》《理路幻钥》《俱舍论摄义》8 部（《修心八颂导引文》已按审核意见修订，新版暂未发布，见上）。
 
 [`translations/pilot/试点报告.md`](translations/pilot/试点报告.md) 说明了最初的质量检验方法和结果。完整的工作流程见 [实施流程](docs/实施流程.md)。
 
